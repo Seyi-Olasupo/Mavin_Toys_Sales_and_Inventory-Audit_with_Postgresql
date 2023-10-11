@@ -1,5 +1,5 @@
 # Mavin_Toys_Sales_and_Inventory-Audit_with_Postgresql
-![](Database_Management.jpg)
+![](Mavin_Database_Management.jpg)
 ## Introduction
 This project represents sales and inventory data manipulation for Mavin chain of toys. 
 The data contain information such as products, stores, daily sales transactions, and inventory level for each store location.
@@ -22,25 +22,40 @@ Creating Database
 
 - ### Product Categories with the Biggest Profit
 
-Ouery                                   | Output
-----------------------------------------|----------------------------------------
-![](Product_Biggest_profit.png)         | ![](Product_with_biggest_profit.png)
+The product category “Toy” is seen as the product with the highest profit from the below query.
 
-The product category “Toy” is seen as the product with the highest profit from the above queries.
+Query                                   | Output
+----------------------------------------|----------------------------------------
+![](Product_biggest_profit_query.png)   | ![](Product_biggest_profit_output.png)
 
 - ##### Product with Profit across locations
 
-To get the biggest profit across different locations the above reflects that although “Toy” product category is the product category with the biggest profit, it is not the biggest profit by different location product category “Electronics” is equally the biggest profit in other locations.
+To get the biggest profit across different locations the below reflects that although “Toy” product category is the product category with the biggest profit, it is not the biggest profit by different location product category “Electronics” is equally the biggest profit in other locations.
+
+Query                                   | Output
+----------------------------------------|----------------------------------------
+![](Profit_across_locations_query.png)  | ![](Profit_across_locations_output.png)
 
 - ### Toy Stores Inventory Value
 
-The above query creates a virtual table (inventory value) that stores each of all toy stores' values from different stores. The second query sum up all the value to get the inventory value of all Toy Stores, which is approximately $ 9,986,1.
+The below query creates a virtual table (inventory value) that stores each of all toy stores' values from different stores. The second query sum up all the value to get the inventory value of all Toy Stores, which is approximately $99,861.
+
+Query                                   | Output
+----------------------------------------|----------------------------------------
+![](Inventory_store_value_query.png)    | ![](Inventory_store_value_output.png)
 
 - ##### Duration
 
-To know how long the inventory value will last, the query above created 2 virtual tables 1 -2. Table_1 had information on products and stock on hand, the table_2 has details of average units sold per product in a day. To get the duration of inventory value, the product stock at hand is divided by the average units sold. This gives us the duration of when the stock can last.
+To know how long the inventory value will last, the query below created 2 virtual tables 1 -2. Table_1 had information on products and stock on hand, the table_2 has details of average units sold per product in a day. To get the duration of inventory value, the product stock at hand is divided by the average units sold. This gives us the duration of when the stock can last.
+
+Query                                   | Output
+----------------------------------------|----------------------------------------
+![](Inventory_duration_query.png)       | ![](Inventory_duration_output.png)
+
 
 ## Skills Demonstrated
 - Data analysis
 - Data manipulation.
 - Data wrangling.
+
+Thank you for your time.🤝
