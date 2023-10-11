@@ -35,3 +35,8 @@ The above query creates a virtual table (inventory value) that stores each of al
 - ##### Duration
 
 To know how long the inventory value will last, the query above created 2 virtual tables 1 -2. Table_1 had information on products and stock on hand, the table_2 has details of average units sold per product in a day. To get the duration of inventory value, the product stock at hand is divided by the average units sold. This gives us the duration of when the stock can last.
+
+## Skills Demonstrated
+- Data analysis
+- Data manipulation.
+- Data wrangling.
