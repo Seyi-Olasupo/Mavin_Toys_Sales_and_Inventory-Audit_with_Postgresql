@@ -22,6 +22,10 @@ Creating Database
 
 - ### Product Categories with the Biggest Profit
 
+Ouery                                   | Output
+----------------------------------------|----------------------------------------
+![](Product_Biggest_profit.png)         | ![](Product_with_biggest_profit.png)
+
 The product category “Toy” is seen as the product with the highest profit from the above queries.
 
 - ##### Product with Profit across locations
