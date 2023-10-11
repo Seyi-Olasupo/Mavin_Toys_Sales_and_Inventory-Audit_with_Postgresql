@@ -1,5 +1,5 @@
 # Mavin_Toys_Sales_and_Inventory-Audit_with_Postgresql
-
+![](Database_Management.jpg)
 ## Introduction
 This project represents sales and inventory data manipulation for Mavin chain of toys. 
 The data contain information such as products, stores, daily sales transactions, and inventory level for each store location.
